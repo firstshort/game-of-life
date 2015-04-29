@@ -46,6 +46,7 @@
             <version>1.8.2</version>
             <scope>test</scope>
         </dependency>
+/**
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-simple</artifactId>
@@ -58,6 +59,7 @@
             <version>1.6.1</version>
             <scope>test</scope>
         </dependency>
+**/
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
