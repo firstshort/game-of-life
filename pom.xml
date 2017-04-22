@@ -494,4 +494,14 @@
             </reporting>
         </profile>
     </profiles>
+      <distributionManagement>
+    <snapshotRepository>
+      <id>nexus-snapshots</id>
+      <url>http://10.0.15.10:8081/repository/artmaven-snapshots/</url>
+    </snapshotRepository>
+    <repository>
+      <id>nexus-releases</id>
+      <url>http://10.0.15.10:8081/repository/artmaven-releases/</url>
+    </repository>
+  </distributionManagement>
 </project>
